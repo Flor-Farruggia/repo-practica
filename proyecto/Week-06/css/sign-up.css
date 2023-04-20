@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.blue-section {
+    background-color: #35365C;
+    color: #f0f0f0;
+}
+/*------header------*/
+.header {
+    height: 60px;
+}
+.header img {
+    float: right;
+    width: 200px;
+    height: 40px;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+/*-----Main-----*/
+.main {
+    background: #E3E6F2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.main-draw {
+    background-color: #f0f0f0;
+    width: 452px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    top: 10%;
+    bottom: 10%;
+    color: #000;
+}
+#home-page {
+    align-self: flex-start;
+}
+.main-draw > h1 {
+    text-align: center;
+    width: 115px;
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #2C8008;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.mail-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+.password-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+}
+.img-form {
+    height: 15px;
+    width: 15px;
+}
+.forgot-pass {
+    width: 212px;
+    height: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: #4362D0;
+    align-self: center;
+} 
+.checkbox-remember {
+    display: flex;
+    flex-direction: row;
+}
+.member-link {
+    font-size: 16px;
+    color: #1921EE;
+}
+.continue-button {
+    align-self: center;
+    text-align: center;
+    width: 290px;
+    height: 48px;
+    background: #AACE9B;
+    border-radius: 8px;
+    color:#f0f0f0;
+    font-size: 16px;
+}
+/*------other measure------*/
+@media only screen and (min-width: 600px) {
+    body {
+        width: 100%;
+    }
+    /*------header------*/
+    .header {
+        height: 169px;
+    }
+    .header img{
+        width: 206px;
+        height: 42px;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    /*------header------*/
+    .header {
+        position: relative;
+        height: 159px;
+    }
+    .header img {
+        width: 240px;
+        height: 70px;
+        margin-top: 2%;
+    }
+}
